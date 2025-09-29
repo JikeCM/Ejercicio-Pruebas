@@ -3,4 +3,6 @@
 ## Descripción
 
 En este proyecto usamos mock, mockito, markdown, lombok, junit, maven y 
-demás para hacer una modelo vista controlador y sus test
+demás para hacer una modelo vista controlador y sus test.
+
+La entrega se hará en *GitHub*.
