@@ -8,10 +8,10 @@ public class AlumnoVista implements AlumnoVInterfaz{
     public final static int  OPCION_INSERTAR_ALUMNO = 1;
     public final static int  OPCION_MOSTRAR_ALUMNO = 2;
     public final static int  OPCION_SALIR = 3;
-    public final String TEXTO_INSERTAR = "Dime %s del alumno a insertar";
-    public final String TEXTO_INSERTAR_NOMBRE = String.format(TEXTO_INSERTAR, "el nombre");
-    public final String TEXTO_INSERTAR_APELLIDO = String.format(TEXTO_INSERTAR, "el apellido");
-    public final String TEXTO_INSERTAR_EDAD = String.format(TEXTO_INSERTAR, "la edad");
+    public final static String TEXTO_INSERTAR = "Dime %s del alumno a insertar";
+    public final static String TEXTO_INSERTAR_NOMBRE = String.format(TEXTO_INSERTAR, "el nombre");
+    public final static String TEXTO_INSERTAR_APELLIDO = String.format(TEXTO_INSERTAR, "el apellido");
+    public final static String TEXTO_INSERTAR_EDAD = String.format(TEXTO_INSERTAR, "la edad");
 
     @Override
     public String menu(){
